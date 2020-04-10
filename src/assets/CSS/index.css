@@ -11,3 +11,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+body {
+  background: url(https://images5.alphacoders.com/896/896025.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+/*https://i.pinimg.com/originals/bb/19/9e/bb199e18e0a94e9552711fa6d23c7a20.jpg*/
+/*https://i.pinimg.com/originals/bc/f8/50/bcf85035e621be2b8daeef948cfde2a6.jpg*/
