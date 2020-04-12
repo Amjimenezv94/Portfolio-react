@@ -29,7 +29,7 @@ class Carousel extends Component {
                             </ol>
                             <div className="carousel-inner">
                                 <div className="carousel-item active">
-                                    <img src={tribute} className="d-block w-100" target="black" alt="First project" />
+                                <a className="img-link text-white" href="https://amjimenezv94.github.io/Tribute_Page/Reto_01.html"> <img src={tribute} className="d-block w-100" target="black" alt="First project" /></a>
                                     <div className="carousel-caption d-none d-md-block rounded">
                                         <h5><a className="img-link text-white" href="https://amjimenezv94.github.io/Tribute_Page/Reto_01.html"> <mark>SHOW ME MORE</mark></a>
                                         </h5>
@@ -37,7 +37,7 @@ class Carousel extends Component {
                                     </div>
                                 </div>
                                 <div className="carousel-item">
-                                    <img src={survey} className="d-block w-100" target="black" alt="Second project" />
+                                <a className="img-link text-white" href="https://amjimenezv94.github.io/Primer_Formulario/"> <img src={survey} className="d-block w-100" target="black" alt="Second project" /></a>
                                     <div className="carousel-caption d-none d-md-block">
                                         <h5><a className="img-link text-white" href="https://amjimenezv94.github.io/Primer_Formulario/"> <mark>SHOW ME MORE</mark> </a>
                                         </h5>
@@ -46,7 +46,8 @@ class Carousel extends Component {
                                 </div>
 
                                 <div className="carousel-item">
-                                    <img src={technical} className="d-block w-100" target="black" alt="third project" />
+                                <a className="img-link text-white" href="https://amjimenezv94.github.io/technical-page/"> <img src={technical} className="d-block w-100" target="black" alt="third project" /> </a>
+                                    
                                     <div className="carousel-caption d-none d-md-block">
                                         <h5><a className="img-link text-white" href="https://amjimenezv94.github.io/technical-page/"> <mark>SHOW ME MORE</mark></a>
                                         </h5>
@@ -54,7 +55,8 @@ class Carousel extends Component {
                                     </div>
                                 </div>
                                 <div className="carousel-item">
-                                    <img src={landing} className="d-block w-100" target="black" alt="Fourth project" />
+                                <a className="img-link text-white" href="https://amjimenezv94.github.io/lading-page/"><img src={landing} className="d-block w-100" target="black" alt="Fourth project" /></a>
+                                    
                                     <div className="carousel-caption d-none d-md-block">
                                         <h5><a className="img-link text-white" href="https://amjimenezv94.github.io/lading-page/"><mark>SHOW ME MORE</mark></a>
                                         </h5>
@@ -62,7 +64,7 @@ class Carousel extends Component {
                                     </div>
                                 </div>
                                 <div className="carousel-item">
-                                    <img src={group} className="d-block w-100" target="black" alt="fifth project" />
+                                <a className="img-link text-white" href="https://dubis78.github.io/Reto-1/"> <img src={group} className="d-block w-100" target="black" alt="fifth project" /></a>
                                     <div className="carousel-caption d-none d-md-block">
                                         <h5><a className="img-link text-white" href="https://dubis78.github.io/Reto-1/"><mark>SHOW ME MORE</mark></a>
                                         </h5>

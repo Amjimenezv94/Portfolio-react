@@ -36,7 +36,7 @@ class Education extends Component {
                                             <small>Duke university</small>
                                         </h6>
                                         <h6>
-                                            <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero sit voluptatum temporibus ea quisquam ad qui, odio quibusdam! Corrupti rem consectetur possimus provident tempora dignissimos facere a quae reiciendis sequi?</small></h6>
+                                            <small>I Toke a series of online courses at duke university on geographic information systems that gave me the knowledge to analyze spatial data, use cartography techniques to communicate results in maps, and collaborate with peers in GIS and GIS-dependent fields. </small></h6>
                                         <h6>
                                             <small>Jan 2019 - Aug 2020</small>
                                         </h6>

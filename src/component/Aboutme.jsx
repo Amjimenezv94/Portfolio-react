@@ -9,7 +9,7 @@ class Aboutme extends Component {
             <section className=" text-center" id="about">
                 <div className="container">
                     <h1 className="text-white  pt-4">ABOUT ME</h1>
-                    <p className="lead text-white me">Geological engineering with the projection of integrating technology and computer science in his career; interested in continuing her training process as a web developer and venturing into the workplace. Empathetic, charismatic and collaborative person. With a focus on attention to detail, teamwork and good conflict resolution..</p>
+                    <p className="lead text-white mx-4 me">Geological engineering with the projection of integrating technology and computer science in his career; interested in continuing her training process as a web developer and venturing into the workplace. Empathetic, charismatic and collaborative person. With a focus on attention to detail, teamwork and good conflict resolution..</p>
                 
                      
                     <br/>

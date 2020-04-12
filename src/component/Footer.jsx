@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import '../assets/CSS/footer.css'
 
 class Footer extends Component {
 
@@ -43,8 +44,9 @@ class Footer extends Component {
                                           
                         
                 </div>
+                <div className="inferior"> <a href="#Nav"><img src="https://static.wixstatic.com/media/2ec355_3aef23e29c284cd087d025640983d635~mv2.gif" width="30px" heigth="35px"alt=""/></a></div>
                 <footer className="container p-5 text-white">
-                   <p>© 2020 Angélica María Jiménez Villa  | Portafolio Web.</p>
+                    <p>© 2020 Angélica María Jiménez Villa  | Portafolio Web.</p>
                 </footer>
             </section>
 
