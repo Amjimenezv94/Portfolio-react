@@ -1,0 +1,22 @@
+.progress {
+	background-color: #d8d8d8;
+	border-radius: 8px;
+	position: relative;
+	margin: 15px 0;
+	height: 30px;
+	width: 300px;
+}
+
+.progress-done {
+	background: linear-gradient(to left, #6AD5E9, #875EC8);
+	box-shadow: 0 3px 3px -5px rgb(31, 28, 31), 0 2px 5px rgb(30, 37, 37);
+	border-radius: 5px;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	width: 0;
+	opacity: 0;
+	transition: 1s ease 0.3s;
+}

@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import '../assets/CSS/carousel.css'
 
 class Projects extends Component {
 

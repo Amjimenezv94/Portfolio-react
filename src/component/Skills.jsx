@@ -1,6 +1,28 @@
-import React, { Component } from 'react'
-import skills from '../assets/CSS/skill.css'
+import React, { Component } from 'react';
+import '../assets/CSS/progress.css';
 
+
+const Progress = ({ done }) => {
+  const [style, setStyle] = React.useState({});
+    
+    setTimeout(() => {
+      const newStyle = {
+        opacity: 1,
+        width: `${done}%`
+      }
+
+      setStyle(newStyle);
+  }, 1000);
+
+  return(
+  <div className="progress">
+    <div className="progress-done" style={style}>
+      {done}%
+    </div>
+  </div>
+ )
+}
+   
 class Skills extends Component {
 
   render() {
@@ -14,11 +36,15 @@ class Skills extends Component {
               <div className="main-content-left text-white">
               
                 <h6>HTML5</h6>
-                <progress  id="progress1" value="90" ></progress>
+                   <Progress done="70"/>
+                                                     
                 <h6>Bootstrap</h6>
-                <progress id="progress1" value="60" bg-warning ></progress>
+
+                   <Progress done="70"/>
+                
                 <h6>ArcGis</h6>
-                <progress id="progress1" value="90" ></progress>
+
+                  <Progress done="90"/>
 
               </div>
             </div>
@@ -27,24 +53,27 @@ class Skills extends Component {
               <div className="main-content-left text-white">
 
                 <h6>CSS3</h6>
-                <progress id="progress1" value="85" ></progress>
+                    <Progress done="80"/>  
                 <h6>Python</h6>
-                <progress id="progress1" value="60" ></progress>
+                    <Progress done="80"/>                  
                 <h6>AutoCad</h6>
-                <progress id="progress1" value="50" ></progress>
+                   <Progress done="70"/>           
 
               </div>
             </div>
+
 
             <div className="col-md-4">
               <div className="main-content-left text-white">
 
                 <h6>JavaScript</h6>
-                <progress id="progress1" value="40" ></progress>
+                   <Progress done="50"/>
                 <h6>React JS</h6>
-                <progress id="progress1" value="30" ></progress>
+                    
+                    <Progress done="70"/>
                 <h6>English</h6>
-                <progress id="progress1" value="70" ></progress>
+
+                    <Progress done="80"/>          
 
               </div>
             </div>
@@ -54,9 +83,9 @@ class Skills extends Component {
 
 
 
-      </section>
+      </section>);
 
-    );
+   
   }
 }
 
